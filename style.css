@@ -90,6 +90,19 @@
 			color: yellow;
 		}
 
+		.github a {
+			position: fixed;
+			bottom: 20px;
+			left: 10px;
+			color: yellow;
+			background-color: black;
+			padding: 10px;
+			border-radius: 10px;
+
+			text-decoration: none;
+		}
+
+
 		@media screen and (max-width: 1200px) {
 			.search input {
 				width: 60%
