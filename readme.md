@@ -1,3 +1,5 @@
+![Demo](path/to/your/demo.gif)
+
 # YouTube Video Display
 
 This project is a simple web application that allows users to search for YouTube videos and display them on the webpage. The application is built using HTML, CSS, and JavaScript, and it utilizes the YouTube Data API to fetch video data.
