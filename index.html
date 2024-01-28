@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>YouTube Video Display</title>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+	<div class="search">
+		<input type="text" id="search-input" placeholder="YouTube Video's Search" required>
+		<button onclick="searchYouTube()">🔍</button>
+	</div>
+
+	<div class="video-container" id="video-container"></div>
+
+	<div class="pagination" id="pagination">
+		<button onclick="loadMoreVideos()">Load More</button>
+	</div>
+
+	<script type="text/javascript" src="script.js"> </script>
+	<!-- Replace 'YOUR_API_KEY' with your actual YouTube Data API key -->
+	<script async defer src="https://www.google.com/js/api.js?key=YOUR_API_KEY"></script>
+</body>
+
+</html>
