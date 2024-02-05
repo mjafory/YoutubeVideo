@@ -38,14 +38,15 @@
 		function searchYouTube() {
 			nextPageToken = '';
 			const searchTerm = document.getElementById('search-input').value;
-			const apiKey = 'YOUR_API_KEY'; // Replace with your actual API key
+			const apiKey = 'AIzaSyCaV_YECHs9l4-7JIv6NtcpuACJU0fFFdQ'; // Replace with your actual API key
 			fetchYouTubeVideos(apiKey, searchTerm);
+			document.getElementById('pagination').style.display="block";
 		}
 
 		// Function to load more videos
 		function loadMoreVideos() {
 			const searchTerm = document.getElementById('search-input').value;
-			const apiKey = 'YOUR_API_KEY'; // Replace with your actual API key
+			const apiKey = 'AIzaSyCaV_YECHs9l4-7JIv6NtcpuACJU0fFFdQ'; // Replace with your actual API key
 			fetchYouTubeVideos(apiKey, searchTerm, nextPageToken);
 		}
 

@@ -2,9 +2,12 @@
 			padding: 0;
 			margin: 0;
 			font-family: cursive;
-			background-color: royalblue;
-			width: 100%;
-			height: auto;
+			background-image: linear-gradient(to bottom, #0b1e3b, #005473, #009095, #67cb9d, #e1ff9f);
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+			height: 100vh;
+
 
 		}
 
@@ -75,6 +78,7 @@
 		}
 
 		.pagination {
+			display: none;
 			position: fixed;
 			bottom: 3vh;
 			right: 10px;
